@@ -2,29 +2,6 @@
 #include <stdlib.h>
 #include <string.h>
 
-/*
-1. Inizializziamo una variabile chiamata "maxCalories" per tenere traccia delle 
-calorie massime trovate finora. Inizializziamola a 0.
-
-2. Apriamo il file di input e iniziamo a leggere le righe una alla volta.
-
-3. Se troviamo una riga vuota, significa che stiamo passando a un nuovo elfo. 
-In questo caso, reimpostiamo il nostro contatore di calorie a 0.
-
-4.Se troviamo una riga che contiene un numero, convertiamo il numero in un 
-intero e aggiungiamolo al nostro contatore di calorie.
-
-5. Dopo aver letto ogni riga, confrontiamo il nostro contatore 
-di calorie con la variabile "maxCalories". Se il contatore di calorie 
-è maggiore, aggiorniamo "maxCalories" con il nuovo valore.
-
-6. Continuiamo a leggere le righe del file finché non le abbiamo lette tutte.
-
-7. Alla fine, "maxCalories" conterrà il numero di calorie massimo 
-trovato, ovvero il numero di calorie portato dall'elfo che ne ha di più. 
-Possiamo stampare questo valore come risposta.
-*/
-
 int part1() {
     // Apriamo il file di input
     FILE* inputFile = fopen("input.txt", "r");
